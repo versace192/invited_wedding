@@ -1,0 +1,15 @@
+{
+  "name": "invited_wedding",
+  "version": "1.0.0",
+  "description": "Interactive wedding invitation for Ilya and Ekaterina",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js",
+    "test": "node --check index.js && node --check app.js && node --check scripts/generate-hero-asset.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}

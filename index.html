@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+            name="description"
+            content="Свадебное приглашение Ильи и Екатерины на 26 сентября 2026 года."
+    />
+    <meta property="og:title" content="Илья & Екатерина - свадьба 26.09.2026" />
+    <meta
+            property="og:description"
+            content="Будем счастливы разделить с вами день нашей свадьбы."
+    />
+    <meta name="theme-color" content="#f7efe9" />
+    <title>Илья & Екатерина - свадебное приглашение</title>
+    <script>
+        document.documentElement.classList.add('js');
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="config.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+<canvas class="ambient-canvas" id="ambientCanvas" aria-hidden="true"></canvas>
+<div class="page-sheen" aria-hidden="true"></div>
+
+<header class="site-header" id="top">
+    <a class="brand-mark" href="#home" aria-label="В начало">
+        <span class="ring ring-left"></span>
+        <span class="ring ring-right"></span>
+        <span class="ring-stone"></span>
+    </a>
+    <nav class="site-nav" aria-label="Разделы приглашения">
+        <a href="#date">Дата</a>
+        <a href="#details">Пожелания</a>
+        <a href="#dress">Дресс-код</a>
+        <a href="#map">Карта</a>
+    </nav>
+    <a class="nav-button" href="#rsvp">Анкета</a>
+</header>
+
+<main>
+    <section class="hero section" id="home">
+        <div class="hero-inner">
+            <div class="hero-copy reveal">
+                <p class="eyebrow">Свадебное приглашение</p>
+                <h1>Илья <span>&</span> Екатерина</h1>
+                <p class="hero-date">26 сентября 2026 <span>17:00</span></p>
+                <p class="hero-text">
+                    Мы будем счастливы разделить с вами день, с которого начинается
+                    наша семья.
+                </p>
+                <div class="hero-actions" aria-label="Быстрые действия">
+                    <a class="primary-button" href="#rsvp">Ответить на приглашение</a>
+                                    </div>
+            </div>
+
+            <div class="countdown-panel reveal" aria-label="Обратный отсчет до свадьбы">
+                <p class="panel-label">До торжества</p>
+                <div class="countdown-line" id="countdown">
+              <span class="countdown-part">
+                <strong data-countdown="days">00</strong>
+                <small>дней</small>
+              </span>
+                    <span class="countdown-separator" aria-hidden="true"></span>
+                    <span class="countdown-part">
+                <strong data-countdown="hours">00</strong>
+                <small>часов</small>
+              </span>
+                    <span class="countdown-separator" aria-hidden="true"></span>
+                    <span class="countdown-part">
+                <strong data-countdown="minutes">00</strong>
+                <small>минут</small>
+              </span>
+                    <span class="countdown-separator" aria-hidden="true"></span>
+                    <span class="countdown-part">
+                <strong data-countdown="seconds">00</strong>
+                <small>секунд</small>
+              </span>
+                </div>
+                <p class="countdown-note" id="countdownNote">
+                    Копейск, ул. Ручейная, 52
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section date-section" id="date">
+        <div class="section-grid">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Наша дата</p>
+                <h2>Суббота, 26 сентября</h2>
+                <p>
+                    Начало торжества в 17:00. Будем рады разделить этот вечер вместе с вами.
+                </p>
+            </div>
+            <div class="date-lockup reveal" aria-label="Дата свадьбы">
+                <span class="date-day">26</span>
+                <span class="date-month">сентября</span>
+                <span class="date-year">2026</span>
+                <span class="date-time">17:00</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section details-section" id="details">
+        <div class="section-heading centered reveal">
+            <p class="eyebrow">Пожелания</p>
+            <h2>О самом трогательном моменте</h2>
+        </div>
+        <div class="wishes-grid">
+            <blockquote class="wish-card reveal">
+                <div class="wish-icon" aria-hidden="true">💋</div>
+                <p class="wish-title">Без «Горько»</p>
+                <p>Будем очень признательны, если Вы воздержитесь от криков «Горько». Ведь поцелуй — это знак выражения чувств, и он не может быть по заказу.</p>
+            </blockquote>
+
+            <blockquote class="wish-card reveal">
+                <div class="wish-icon" aria-hidden="true">💐</div>
+                <p class="wish-title">О цветах</p>
+                <p>Мы очень любим цветы, но в день нашей свадьбы просим вас не дарить нам букеты.</p>
+                <p>Нам гораздо важнее разделить этот особенный день с вами, ваши улыбки, тёплые слова и хорошее настроение.</p>
+                <p>Спасибо, что с пониманием отнесётесь к нашей маленькой просьбе 🤍</p>
+            </blockquote>
+
+        </div>
+    </section>
+
+    <section class="section dress-section" id="dress">
+        <div class="section-grid dress-grid">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Дресс-код</p>
+                <h2>Нежные пастельные оттенки</h2>
+                <p>
+                    Будем рады, если для нашего торжества вы выберете наряды в нежных
+                    пастельных оттенках. 🤍 Просим воздержаться от белого цвета —
+                    оставим его для невесты.
+                </p>
+            </div>
+            <div class="palette reveal" aria-label="Палитра дресс-кода">
+                <div class="palette-card">
+                    <span class="swatch blush"></span>
+                    <span>Пудровый</span>
+                </div>
+                <div class="palette-card">
+                    <span class="swatch sage"></span>
+                    <span>Шалфей</span>
+                </div>
+                <div class="palette-card">
+                    <span class="swatch blue"></span>
+                    <span>Голубой</span>
+                </div>
+                <div class="palette-card">
+                    <span class="swatch lavender"></span>
+                    <span>Лавандовый</span>
+                </div>
+                <div class="palette-card forbidden">
+                    <span class="swatch white"></span>
+                    <span>Белый не выбираем</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section map-section" id="map">
+        <div class="section-grid map-grid">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Карта</p>
+                <h2>Место празднования</h2>
+                <p id="mapAddress">г. Копейск, ул. Ручейная, 52</p>
+                <div class="map-tabs" role="tablist" aria-label="Выбор места на карте">
+                    <button class="map-tab" type="button" data-map="celebration">
+                        Празднование
+                    </button>
+                </div>
+            </div>
+            <div class="map-frame reveal">
+                <iframe
+                        id="mapFrame"
+                        title="Карта места торжества"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps?q=%D0%B3.%20%D0%9A%D0%BE%D0%BF%D0%B5%D0%B9%D1%81%D0%BA%2C%20%D1%83%D0%BB.%20%D0%A0%D1%83%D1%87%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%2C%2052&output=embed"
+                ></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="section rsvp-section" id="rsvp">
+        <div class="section-grid form-grid">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Финальный штрих</p>
+                <h2>Анкета гостя</h2>
+                <p>
+                    Поделитесь, пожалуйста, сможете ли вы быть с нами в этот день.
+                </p>
+            </div>
+
+            <form class="guest-form reveal" id="guestForm" novalidate>
+                <label class="field">
+                    <span>Ваше Фамилия Имя Отчество</span>
+                    <input
+                            type="text"
+                            name="fullName"
+                            autocomplete="name"
+                            placeholder="Фамилия Имя Отчество"
+                            required
+                    />
+                </label>
+
+                <fieldset class="field-group">
+                    <legend>Планируете ли Вы присутствовать?</legend>
+                    <label class="choice">
+                        <input type="radio" name="attendance" value="Да" required />
+                        <span>Да, с удовольствием</span>
+                    </label>
+                    <label class="choice">
+                        <input type="radio" name="attendance" value="Нет" />
+                        <span>Не смогу</span>
+                    </label>
+                </fieldset>
+
+                <label class="field">
+                    <span>Если Вы будете не один - заполните поле ниже, пожалуйста</span>
+                    <input
+                            type="text"
+                            name="companion"
+                            autocomplete="off"
+                            placeholder="ФИО спутника/спутницы"
+                    />
+                </label>
+
+                <fieldset class="field-group">
+                    <legend>Ваши предпочтения</legend>
+                    <div class="preference-grid">
+                        <label class="choice">
+                            <input type="checkbox" name="preferences" value="Шампанское" />
+                            <span>Шампанское</span>
+                        </label>
+                        <label class="choice">
+                            <input type="checkbox" name="preferences" value="Белое вино" />
+                            <span>Белое вино</span>
+                        </label>
+                        <label class="choice">
+                            <input type="checkbox" name="preferences" value="Красное вино" />
+                            <span>Красное вино</span>
+                        </label>
+                        <label class="choice">
+                            <input type="checkbox" name="preferences" value="Виски" />
+                            <span>Виски</span>
+                        </label>
+                        <label class="choice">
+                            <input type="checkbox" name="preferences" value="Водка" />
+                            <span>Водка</span>
+                        </label>
+                        <label class="choice">
+                            <input type="checkbox" name="preferences" value="Не пью алкоголь" data-exclusive />
+                            <span>Не пью алкоголь</span>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <button class="submit-button" type="submit">Отправить анкету</button>
+                <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+    <section class="final-section section" id="final">
+        <div class="final-copy reveal">
+            <p class="eyebrow">Илья & Екатерина</p>
+            <h2>До скорой встречи!</h2>
+        </div>
+    </section>
+</main>
+</body>
+</html>
